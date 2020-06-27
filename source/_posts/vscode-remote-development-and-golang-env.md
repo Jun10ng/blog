@@ -3,8 +3,8 @@ title: 使用VsCode进行golang远程开发
 comment:
   - false
 categories:
-  - IDE
-  - Golang
+  - [Golang]
+  - [IDE]
 tags:
   - vscode
 photos:

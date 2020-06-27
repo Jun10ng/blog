@@ -9,7 +9,7 @@ tags:
 	- hexo
 	- markdown
 photos:
-	- gallery/01.jpg
+	- https://i.kinja-img.com/gawker-media/image/upload/c_scale,f_auto,fl_progressive,q_80,w_1600/18pqg147h0hx3png.png
 ---
 
 

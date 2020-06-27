@@ -8,7 +8,7 @@ categories:
     - IDE
     - 工作效率
 photos:
-	- gallery/02.jpg
+	- https://s1.ax1x.com/2020/06/27/N6RRJO.jpg
 ---
 
 本文介绍了如何在vscode中自定义快捷键, 以及使用插件实现自定义"多条命令"的快捷键.

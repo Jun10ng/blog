@@ -1,7 +1,6 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
 comment:
     - false
 categories:
@@ -9,5 +8,5 @@ categories:
 tags:
 	- 
 photos:
-	- gallery/
+	- 
 ---

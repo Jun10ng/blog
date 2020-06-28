@@ -8,7 +8,7 @@ hexo d
 echo -e "\t\t......OK\n将源文件添加到git版本库"
 git add .  
 echo -e "\t\t......OK\n执行git-commit"
-git commit -m "`date  +"%Y-%m-%d %H:%M.%S 发布文章:$1"`" 
+git commit -m "$1" 
 git push  
 echo -e "\t\t......OK\n执行git-push"
 

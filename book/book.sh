@@ -1,4 +1,5 @@
 #!/bin/bash
+cd book
 
 source=../public/book
 for dir in *;

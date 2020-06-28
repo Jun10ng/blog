@@ -9,6 +9,7 @@ menu:
   Categories: categories
   Tags: tags
   About: about
+  Books: books
 rss: /atom.xml
 
 # Set default keywords (Use a comma to separate)

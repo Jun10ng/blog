@@ -4,8 +4,8 @@
 
 # Site
 title: Jun10ng
-subtitle: "fu4ng#foxmail.com"
-description: ""
+subtitle: ""
+description: "Golang & 设计模式 & Java & VSCode"
 keywords:
 author: Junlong
 language: zh-CN
@@ -13,13 +13,18 @@ timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jun10ng.work
+url: http://www.jun10ng.work
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+baidusitemap:
+  path: baidusitemap.xml
+sitemap:
+  path: sitemap.xml
 
 # Directory
 source_dir: source
@@ -30,6 +35,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - googleb0b12dec5c3ac957.html
+  - baidu_verify_Z8KYeK53a2.html
+  - robots.txt
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -95,11 +103,18 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: hipaper
 
+baidu_url_submit:
+  count: 5
+  host: www.jun10ng.work
+  token: http://data.zz.baidu.com/urls?site=www.jun10ng.work&token=dZ2bxE1bZvOeDt1x
+  path: baidu_urls.txt
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 
 deploy:
-  type: git
-  repo: <https://github.com/Jun10ng/blog>
-  branch: [branch]
-  message: [message]
+  # - type: git
+  #   repo: <https://github.com/Jun10ng/blog>
+  #   branch: [branch]
+  #   message: [message]
+  - type: baidu_url_submitter

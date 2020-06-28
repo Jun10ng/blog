@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /home/
+Allow: /about/
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /books/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /categories/
+
+Sitemap: http://jun10ng.work/sitemap.xml
+Sitemap: http://jun10ng.work/baidusitemap.xml

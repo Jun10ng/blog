@@ -8,8 +8,9 @@ menu:
   Archives: archives
   Categories: categories
   Tags: tags
-  About: about
+  Life: life
   Books: books
+  About: about
 rss: /atom.xml
 
 # Set default keywords (Use a comma to separate)
@@ -113,3 +114,8 @@ facebook_sdk:
 
 # CNZZ count
 cnzz_siteid: 1260716016
+
+# 文章首页截断
+auto_excerpt:
+  enable: true
+  length: 200

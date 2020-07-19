@@ -3,7 +3,7 @@ title: Go返回一个不可变，只读，不可写的对象
 comment:
   - false
 categories:
-  - golang
+  - Golang
 tags:
   - go-tricks
 photos:

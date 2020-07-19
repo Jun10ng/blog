@@ -3,7 +3,7 @@ title: Go官网FAQ部分翻译
 comment:
   - true
 categories:
-  - Go
+  - Golang
 tags:
   - null
 photos:
